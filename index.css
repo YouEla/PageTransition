@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#hide_block{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transform: translateX(-100%);
+    position: absolute;
+}
+
+#date_cnt{
+    color: black;
+    width: 10%;
+    height: auto;
+    position: relative;
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
+
+#time{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    position: absolute;
+    font-size: 30px;
+    width: auto;
+    transform: translateY(20px);
+    letter-spacing: 2.5px;
+}
+
+#contenuto{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+

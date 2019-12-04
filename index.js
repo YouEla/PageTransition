@@ -11,7 +11,7 @@ window.onclick=function start_animation(){
 tl.from('#hide_block', {opacity:0,xPercent: -100});
 tl.to('#hide_block', {opacity:1,xPercent: 0, duration: .8,ease: 'expo.inOut'});
 tl.to('#hide_block', {opacity:1,xPercent: 100, duration: .8,ease: 'expo.inOut'});
-    setTimeout(  a, 680);
+    setTimeout(a, 680);
 }
 
 function finish_animation(){
