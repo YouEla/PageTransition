@@ -19,7 +19,7 @@ html,body{
 }
 
 #date_cnt{
-    color: black;
+    color: white;
     width: 10%;
     height: auto;
     position: relative;
@@ -39,7 +39,9 @@ html,body{
 }
 
 #contenuto{
-    background-color: aqua;
+    background-image: url("/img/levin-i8IPxSMJWtA-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
     width: 100%;
     height: 100%;
     z-index: 1;

@@ -21,8 +21,9 @@ tl.to('#hide_block', {opacity:0,xPercent: 250, duration: .8,ease: 'expo.inOut'})
 }
 
 const a=async function date () {
+    document.querySelector('#contenuto').style.backgroundImage = "url('/img/levin-i8IPxSMJWtA-unsplash.jpg')";
     document.querySelector('#time').style.zIndex='1';
-    document.querySelector('#time').style.color='white';
+    document.querySelector('#time').style.color='white'; //I used it before because I have tried the site with a light image, and I had instead a black color for the font
     tl.from('#time', {fontSize: 30,opacity:1,y: 20,duration:.0});
     tl.to('#time', {fontSize: 45,opacity:1,y: window.innerHeight/5, duration:.8,ease: 'expo.inOut'});
     tl.to('#time', {fontSize: 30,opacity:1,y: 20, duration: .9,ease: 'expo.inOut'});
@@ -31,6 +32,7 @@ const a=async function date () {
             await increment_number();// wait 100 ms, then print 
             tempo.innerHTML=i;
     } //if you want to take the screen size use window.screen.height for y and .width for x
+    document.querySelector('#contenuto').style.backgroundImage = "url('/img/nikita-karimov-lvJZhHOIJJ4-unsplash.jpg')";
     finish_animation();
 };
 
