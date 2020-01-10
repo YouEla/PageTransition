@@ -1,6 +1,6 @@
 let tempo=document.querySelector('#time');
 
-//Inizialise the timeline
+//initialize the timeline
 var tl = gsap.timeline();
 
 //The animations 
